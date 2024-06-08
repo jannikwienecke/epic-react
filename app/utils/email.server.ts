@@ -32,7 +32,7 @@ export async function sendEmail({
 	| { react: ReactElement; html?: never; text?: never }
 )) {
 	const from = 'hello@epic-web.fly.dev'
-	// const from = 'hello@epic-web.fly.devv'
+	// const from = 'hello@epic-web.fly.dev'
 
 	const email = {
 		from,
